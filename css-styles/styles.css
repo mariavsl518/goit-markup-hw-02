@@ -1,6 +1,59 @@
-.hero {
-
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
-.hero-title {
-
+/* Header */    
+.nav {
+    color: #2E2F42;
+}
+.nav:hover {
+    color: #404BBF;
+}
+.nav a {
+    color: currentColor;
+}
+/* hero */
+.hero {
+    color:#FFF;
+    background-color:#2E2F42;
+    width: 1440px;
+    height: 600px;  
+}
+.hero-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-button {
+    width: 169px;
+    height: 56px;
+    color: #FFF;
+    background-color: #4D5AE5; 
+}
+.hero-button:hover {
+    background-color: #404BBF;
+}
+.buttons {
+    color: #FFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: #404BBF;
+}
+.wawd-title {
+    text-align: center;
+}
+.team-section {
+    background-color: #f4f4fd;
+}
+.team-title {
+    text-align: center;
+}
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
