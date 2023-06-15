@@ -5,40 +5,45 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    background-color: #FFF;
 }
 a {
     text-decoration: none;
 }
 /* Header */    
-.nav {
+.list {
+    list-style: none;
     color: #2E2F42;
 }
-.nav:hover {
-    color: #404BBF;
-}
-.nav.nav-links {
-    color: currentColor;
+.list.nav-links {
+    color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
 }
+.nav-links:hover
+.nav-links:active
+ {
+    color: #4D5AE5;
+}
 .contacts {
     color: inherit;
 }
 
+
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-}
-.logo-blue {
     color: #4D5AE5;
+}
+.logo-grey {
+    color: #2E2F42;
 }
 .logo-white {
     color: #F4F4FD;
@@ -54,11 +59,12 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
 .hero-button {
+    font-family: "Roboto", sans-serif; 
     width: 169px;
     height: 56px;
     color: #FFF;
@@ -68,8 +74,10 @@ a {
     font-size: 16px;
     line-height: 24px; 
     cursor: pointer;
+    letter-spacing: 0.04em 
 }
-.hero-button:hover {
+.hero-button:hover
+.hero-button:focus {
     background-color: #404BBF;
 }
 .buttons {
@@ -85,25 +93,33 @@ a {
     background-color: #404BBF;
 }
 .wawd-title {
+    color: #2e2f42;
     text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    line-height: 1.11;
 }
 .team-section {
     background-color: #f4f4fd;
 }
 .team-title {
+    color: #2e2f42;
     text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
     letter-spacing: 0.02em;
+    line-height: 1.11;
     text-transform: capitalize;
+}
+.team-list {
+    background-color: #FFF;
+}
+.team-text {
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 .h3title {
     font-style: normal;
