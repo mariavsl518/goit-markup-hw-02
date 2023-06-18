@@ -59,8 +59,10 @@ body {
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
-.contacts .list .link:hover,
-.contacts .list .link:active {
+.contacts .link:hover,
+.contacts .link:active,
+.contacts .link:focus,
+ {
     color:var(--hover-link-color)
 }
 /* hero */
