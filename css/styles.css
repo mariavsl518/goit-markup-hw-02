@@ -52,8 +52,7 @@ body {
     color: var(--hover-link-color);
 }
 
-
-.contacts .list .link{
+.contacts{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -61,16 +60,13 @@ body {
     letter-spacing: 0.02em;
 }
 .contacts .list .link:hover,
-.contacts .list .link:active
-{
-    color: var(--hover-link-color)
+.contacts .list .link:active {
+    color:var(--hover-link-color)
 }
 /* hero */
 .hero {
     color:#FFF;
-    background-color:#2E2F42;
-    width: 1440px;
-    height: 600px;  
+    background-color:#2E2F42; 
 }
 .hero-title{
     font-style: normal;
@@ -82,8 +78,6 @@ body {
 }
 .hero .hero-button {
     font-family: "Roboto", sans-serif; 
-    width: 169px;
-    height: 56px;
     color: #FFF;
     background-color: var(--button-link-color); 
     font-style: normal;
@@ -94,11 +88,12 @@ body {
     letter-spacing: 0.04em;
 }
 .hero .hero-button:hover,
-.hero .hero-button:active {
+.hero .hero-button:active, 
+.hero .hero-button:focus {
     background-color: var(--hover-link-color);
 }
 /* benefits section */
-.h3title {
+.title {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -119,10 +114,11 @@ body {
     font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.11;
+    text-transform: capitalize;
 }
 /* Team */
 .team-section {
-    background-color:#FFF;
+    background-color: var(--main-white-color);
 }
 .team-title {
     color:var(--title-color);
@@ -158,8 +154,28 @@ body {
     letter-spacing: 0.04em;
 }
 .buttons:hover,
-.buttons:active{
+.buttons:active,
+.buttons:focus
+{
     background-color: var(--hover-link-color);
+    color:#FFF;
+}
+/* pictures */
+.picture-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.picture-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
 }
 /* Footer */
 .footer {
