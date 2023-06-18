@@ -61,8 +61,7 @@ body {
 }
 .contacts .link:hover,
 .contacts .link:active,
-.contacts .link:focus,
- {
+.contacts .link:focus {
     color:var(--hover-link-color)
 }
 /* hero */
